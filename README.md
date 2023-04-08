@@ -10,6 +10,8 @@
 
 1. Airflow hello-world
 2. Great Expectations hello-world
+3. Great Expectations + Airflow
+4. Great Expectations + GCP BigQuery
 
 ### 1. Airflow hello-world
 
@@ -48,6 +50,24 @@ pip install great_expectations
 jupyter notebook
 
 # http://localhost:8888/?token=<token> show on the terminal
+```
+
+### 3. Great Expectations + Airflow
+
+* [Official Great Expectations - How to Use Great Expectations with Airflow](https://docs.greatexpectations.io/docs/deployment_patterns/how_to_use_great_expectations_with_airflow/)
+  * [Astronomer - Orchestrate Great Expectations with Airflow](https://docs.astronomer.io/learn/airflow-great-expectations)
+  * [example_data_context_config.py](https://github.com/astronomer/airflow-provider-great-expectations/blob/main/include/great_expectations/object_configs/example_data_context_config.py)
+  * [example_checkpoint_config.py](https://github.com/astronomer/airflow-provider-great-expectations/blob/main/include/great_expectations/object_configs/example_checkpoint_config.py)
+
+```sh
+pip install airflow-provider-great-expectations==0.2.6
+```
+
+### 4. Great Expectations + GCP BigQuery
+
+* [Official Great Expectations - How to Use Great Expectations with Google Cloud Platform and BigQuery](https://docs.greatexpectations.io/docs/deployment_patterns/how_to_use_great_expectations_with_google_cloud_platform_and_bigquery/)
+
+```sh
 ```
 
 ## Contribute
