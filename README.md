@@ -8,10 +8,10 @@
 
 ## Topic covered
 
-1. airflow hello-world
-2. great expectations hello-world
+1. Airflow hello-world
+2. Great Expectations hello-world
 
-### 1. airflow hello-world
+### 1. Airflow hello-world
 
 * [Official Apache Airflow - Quick start using pip](https://airflow.apache.org/docs/apache-airflow/stable/start.html)
   * [Installation](https://airflow.apache.org/docs/apache-airflow/stable/installation/index.html): 完整的安裝說明，包含不同場景適合的建議
@@ -33,6 +33,21 @@ docker compose up
 docker ps
 
 # http://localhost:8080, user:password = airflow:airflow
+```
+
+### 2. Great Expectations hello-world
+
+* [Official Great Expectations - Overview](https://docs.greatexpectations.io/docs/tutorials/quickstart/)
+  * [GitHub - great-expectations](https://github.com/great-expectations/great_expectations)
+
+```sh
+# Install
+pip install great_expectations
+
+# Run
+jupyter notebook
+
+# http://localhost:8888/?token=<token> show on the terminal
 ```
 
 ## Contribute
