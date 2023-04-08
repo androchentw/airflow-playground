@@ -12,6 +12,29 @@
 # Built Visual Studio Code Extensions
 *.vsix
 
+## https://github.com/apache/airflow/blob/main/.gitignore
+
+# Airflow configuration
+airflow.cfg
+unittests.cfg
+airflow_login.py
+dbinit.py
+initdb.py
+secrets.py
+
+# Airflow sqlite databases
+airflow.db
+unittests.db
+
+# Airflow temporary artifacts
+airflow/git_version
+airflow/www/static/coverage/
+airflow/www/*.log
+/logs/
+airflow-webserver.pid
+standalone_admin_password.txt
+warnings.txt
+
 ## https://github.com/github/gitignore/blob/main/Python.gitignore
 
 # Byte-compiled / optimized / DLL files
