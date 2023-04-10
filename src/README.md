@@ -73,3 +73,5 @@ This is an example of what a single failed Expectation looks like in Data Docs. 
 ![glossary_scroller.gif](../res/glossary_scroller.gif)
 
 [Nearly 50 built in expectations](https://greatexpectations.io/expectations) allow you to express how you understand your data, and you can add custom expectations if you need a new one.
+
+Check [Glossary of Expectations](https://great-expectations.readthedocs.io/en/0.13.22/reference/glossary_of_expectations.html).
