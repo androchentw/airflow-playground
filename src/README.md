@@ -1,4 +1,6 @@
-# GE walkthrough
+# GX Walkthrough
+
+From official docs.
 
 ## How to work with Great Expectations
 
